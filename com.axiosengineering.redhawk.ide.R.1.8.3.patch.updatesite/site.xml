@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.axiosengineering.redhawk.ide.codegen.patch_1.0.0.jar" id="com.axiosengineering.redhawk.ide.codegen.patch" version="1.0.0" patch="true">
+      <category name="gov.redhawk.1.8.3.patch"/>
+   </feature>
+   <feature url="features/com.axiosengineering.redhawk.ide.patch_1.0.0.jar" id="com.axiosengineering.redhawk.ide.patch" version="1.0.0" patch="true">
+      <category name="gov.redhawk.1.8.3.patch"/>
+   </feature>
+   <category-def name="gov.redhawk.1.8.3.patch" label="REDHAWK IDE 1.8.3 Patches"/>
+</site>

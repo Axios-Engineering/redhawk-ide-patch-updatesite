@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.axiosengineering.redhawk.ide.codegen.patch"
+      label="REDHAWK IDE 1.8.3 Codegen Patches"
+      version="1.0.0"
+      provider-name="Axios">
+
+   <description>
+      Patches to the REDHAWK IDE feature gov.redhawk.ide.codegen.
+   </description>
+
+   <copyright>
+      Copyright (C) 2013 Axios, Inc.
+   </copyright>
+
+   <license>
+      Eclipse Public License v1.0
+   </license>
+
+   <requires>
+      <import feature="gov.redhawk.ide.codegen" version="1.8.3.v201303122245" patch="true"/>
+   </requires>
+
+   <plugin
+         id="gov.redhawk.ide.idl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="gov.redhawk.ide.codegen.jet.cplusplus"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="gov.redhawk.ide.codegen.jet.java"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

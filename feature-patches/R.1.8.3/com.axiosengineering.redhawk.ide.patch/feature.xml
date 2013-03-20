@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.axiosengineering.redhawk.ide.patch"
+      label="REDHAWK IDE 1.8.3 Patches"
+      version="1.0.0"
+      provider-name="Axios">
+
+   <description>
+      Patches to the REDHAWK IDE feature gov.redhawk.ide.
+   </description>
+
+   <copyright>
+      Copyright (C) 2013 Axios, Inc.
+   </copyright>
+
+   <license>
+      Eclipse Public License v1.0
+   </license>
+
+   <requires>
+      <import feature="gov.redhawk.ide.feature" version="1.0.0.v201303122242" patch="true"/>
+   </requires>
+
+   <plugin
+         id="gov.redhawk.ide.codegen"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
